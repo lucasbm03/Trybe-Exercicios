@@ -57,3 +57,7 @@ centralizeAddSection3.style.marginRight = 'auto';
 
 const background = document.getElementsByClassName('center-content')[0];
 background.parentNode.style.backgroundColor = 'green'
+
+const eliminar9e10 = document.getElementsByTagName('ul')[0];
+eliminar9e10.lastChild.remove();
+eliminar9e10.lastChild.remove();
