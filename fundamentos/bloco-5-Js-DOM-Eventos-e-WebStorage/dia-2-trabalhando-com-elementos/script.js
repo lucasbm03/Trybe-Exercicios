@@ -6,3 +6,6 @@ const tagMain = document.createElement('main');
 tagMain.className = 'main-content';
 document.body.appendChild(tagMain);
 
+const addSection = document.createElement('section');
+addSection.className = 'center-content';
+tagMain.appendChild(addSection);
