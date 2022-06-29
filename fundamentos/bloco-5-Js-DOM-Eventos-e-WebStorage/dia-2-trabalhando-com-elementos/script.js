@@ -43,3 +43,8 @@ addSection3.appendChild(h33);
 }
 
 addH1.className = 'title';
+
+const elementsH3 = document.getElementsByTagName('h3');
+for(let i1 = 0; i1 < 3; i1 += 1){
+    elementsH3[i1].className = 'description';
+}
