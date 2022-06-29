@@ -42,3 +42,4 @@ h33.innerText = 'Show ' + i;
 addSection3.appendChild(h33);
 }
 
+addH1.className = 'title';
