@@ -54,3 +54,6 @@ tagMain.removeChild(removeAddSection2);
 
 const centralizeAddSection3 = document.getElementsByClassName('right-content')[0];
 centralizeAddSection3.style.marginRight = 'auto';
+
+const background = document.getElementsByClassName('center-content')[0];
+background.parentNode.style.backgroundColor = 'green'
