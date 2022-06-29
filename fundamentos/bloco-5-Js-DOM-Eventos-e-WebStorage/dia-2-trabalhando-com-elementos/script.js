@@ -9,3 +9,7 @@ document.body.appendChild(tagMain);
 const addSection = document.createElement('section');
 addSection.className = 'center-content';
 tagMain.appendChild(addSection);
+
+const addP = document.createElement('p');
+addP.innerText = 'Filho do section';
+addSection.appendChild(addP);
