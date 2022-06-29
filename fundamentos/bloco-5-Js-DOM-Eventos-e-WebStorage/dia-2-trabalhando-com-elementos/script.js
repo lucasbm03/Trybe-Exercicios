@@ -13,3 +13,7 @@ tagMain.appendChild(addSection);
 const addP = document.createElement('p');
 addP.innerText = 'Filho do section';
 addSection.appendChild(addP);
+
+const addSection2 = document.createElement('section');
+addSection2.className = 'left-content';
+tagMain.appendChild(addSection2);
