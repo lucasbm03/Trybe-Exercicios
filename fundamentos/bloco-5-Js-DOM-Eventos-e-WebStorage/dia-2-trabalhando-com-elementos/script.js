@@ -51,3 +51,6 @@ for(let i1 = 0; i1 < 3; i1 += 1){
 
 const removeAddSection2 = document.getElementsByClassName('left-content')[0]
 tagMain.removeChild(removeAddSection2);
+
+const centralizeAddSection3 = document.getElementsByClassName('right-content')[0];
+centralizeAddSection3.style.marginRight = 'auto';
