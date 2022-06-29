@@ -36,3 +36,9 @@ for(index = 0; index < arrayNumbers.length; index += 1){
     addUl.appendChild(addLi);
 }
 
+for(let i = 1; i <= 3; i += 1){
+const h33 = document.createElement('h3');
+h33.innerText = 'Show ' + i;
+addSection3.appendChild(h33);
+}
+
