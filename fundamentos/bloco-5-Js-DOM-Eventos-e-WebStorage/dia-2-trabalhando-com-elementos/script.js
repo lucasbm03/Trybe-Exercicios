@@ -26,3 +26,13 @@ const addImage = document.createElement('img');
 addImage.className = 'small-image';
 addImage.src = 'https://picsum.photos/200';
 addSection2.appendChild(addImage);
+
+const addUl = document.createElement('ul');
+addSection3.appendChild(addUl);
+const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis','Sete', 'Oito', 'Nove', 'Dez'];
+for(index = 0; index < arrayNumbers.length; index += 1){
+    const addLi = document.createElement('li');
+    addLi.innerHTML = arrayNumbers[index];
+    addUl.appendChild(addLi);
+}
+
