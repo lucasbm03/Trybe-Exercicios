@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Forms</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <header>
+            <label for="name">
+                <p>Nome Completo:</p>
+                <input type="text" name="name" value="" required autocomplete="off" minlength="10" maxlength="40"
+                    id="name">
+            </label>
+            <br>
+            <br>
+            <p>Email:</p>
+            <label for="email">
+                <input type="text" name="email" value="" required autocomplete="off" minlength="10" maxlength="50">
+            </label>
+        </header>
+        <nav>
+            <br>
+            <br>
+            <label for="opcoes">
+                <input type="radio" name="opcoes" value="opcao 1">Cidade
+                <input type="radio" name="opcoes" value="opcao 2">Campo
+                <input type="radio" name="opcoes" value="opcao 3">Praia
+                <input type="radio" name="opcoes" value="opcao 4">Montanhas
+            </label>
+        </nav>
+        <section>
+            <br>
+            <label for="resposta">
+                <h4>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip:</h2>
+                    <textarea name="resposta" id="respost" cols="30" rows="10" maxlength="500"></textarea>
+            </label>
+            <br>
+            <br>
+            <label for="data">Qual a melhor data para realizar sua viagem?
+                <input type="date" name="data">
+            </label>
+            <br>
+            <br>
+            <p>Gostaria de receber outras incríveis <br> oportunidades oferecidas pela Trybe?</p>
+            <br>
+            <label for="one">Sim
+                <input type="checkbox" name="one">
+            </label>
+            <br>
+            <label for="two">Nao
+                <input type="checkbox" name="two">
+            </label>
+            <p>
+                <p class="lado">Concordo que imagens das minhas férias poderão <br> ser usadas na divulgação de
+                    concursos futuros.</p>
+                <br>
+                <label for="one">Sim
+                    <input type="checkbox" name="one">
+                </label>
+                <br>
+                <label for="two">Nao
+                    <input type="checkbox" name="two">
+                </label>
+                <br>
+                <br>
+        </section>
+        <footer>
+            <input type="submit" name="enviar" value="enviar" id="enviar">
+            <input type="reset" name="clear" value="Limpar">
+        </footer>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
