@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 4px;
+}
+
+body {
+    border: solid;
+}
+
+#respost {
+    margin-left: 10px;
+}
+
+#name {
+    margin-left: 6px;
+}
+
+.lado {
+    display: inline-block;
+}

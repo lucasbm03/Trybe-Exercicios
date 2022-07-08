@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Forms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ 
+</head>
+
+<body>
+    <form action="" method="get" id="form">
+        <header>
+            <label for="name">
+                <p>Nome Completo:</p>
+                <input type="text" name="name" value="" required autocomplete="off" minlength="10" maxlength="40"
+                    id="name">
+            </label>
+            <br>
+            <br>
+            <p>Email:</p>
+            <label for="email">
+                <input type="text" name="email" value="" required autocomplete="off" minlength="10" maxlength="50" id="email">
+            </label>
+        </header>
+        <nav>
+            <br>
+            <br>
+            <label for="opcoes">
+                <input type="radio" name="opcoes" value="opcao 1">Cidade
+                <input type="radio" name="opcoes" value="opcao 2">Campo
+                <input type="radio" name="opcoes" value="opcao 3">Praia
+                <input type="radio" name="opcoes" value="opcao 4">Montanhas
+            </label>
+        </nav>
+        <section>
+            <br>
+            <label for="resposta">
+                <h4>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip:</h2>
+                    <textarea name="resposta" id="respost" cols="30" rows="10" maxlength="500"></textarea>
+            </label>
+            <br>
+            <br>
+            <label for="data">Qual a melhor data para realizar sua viagem?
+                <input type="date" name="data" id="dateId">
+            </label>
+            <br>
+            <br>
+            <p>Gostaria de receber outras incríveis <br> oportunidades oferecidas pela Trybe?</p>
+            <br>
+            <label for="one">Sim
+                <input type="checkbox" name="one">
+            </label>
+            <br>
+            <label for="two">Nao
+                <input type="checkbox" name="two">
+            </label>
+            <p>
+                <p class="lado">Concordo que imagens das minhas férias poderão <br> ser usadas na divulgação de
+                    concursos futuros.</p>
+                <br>
+                <label for="one">Sim
+                    <input type="checkbox" name="one">
+                </label>
+                <br>
+                <label for="two">Nao
+                    <input type="checkbox" name="two">
+                </label>
+                <br>
+                <br>
+        </section>
+        <footer>
+            <input type="submit" name="enviar" value="enviar" id="enviar">
+            <input type="reset" name="clear" value="Limpar">
+        </footer>
+    </form>
+    <script>const validate = new window.JustValidate('#form');</script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
